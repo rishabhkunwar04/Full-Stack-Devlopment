@@ -1,0 +1,21 @@
+.c1{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-color:darkcyan;
+}
+@media (max-width:900px){
+    .c1{
+        background-color: darkred;
+    }
+
+}
+@media (max-width:600px){
+    .c1{
+        background-color: darkgreen;
+    }
+
+}
+
+/* and keyword combines a media frature with a media type or
+other media features*/

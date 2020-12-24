@@ -1,0 +1,37 @@
+
+/*  Resource to read abt flexbox:- css tricks flexbox(website)*/
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+        /* how items within a row are aligned in order */
+
+    justify-content:space-evenly;
+        /* align items within the row perpendicularly */
+
+    align-items:baseline;
+        /* how all the rows together are aligned */
+
+     align-content:center ;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    border: dotted darkred 0.5px;
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    
+  /* text alignment facility is only given for horizontal axis not for vertical axis*/  
+
+}
+
+

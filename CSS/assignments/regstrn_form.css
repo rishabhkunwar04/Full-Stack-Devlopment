@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(235, 227, 227);
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+  }
+
+
+.loginbox{
+    height: 430px;
+    width:600px;
+    background-color: whitesmoke;
+    box-shadow:grey 5px 5px 5px;
+    position: relative;
+    margin: 10% auto;
+
+}
+.loginbox:hover{
+  box-shadow:grey 10px 10px 30px;
+  
+
+
+}
+h1{
+    padding-top: 20px;
+    
+}
+.left {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  input[type="text"],input[type="email"],
+  input[type="password"]{
+      display:block;
+      padding: 10px;
+      width: 220px;
+      height: 50px;
+      border: none;
+      box-sizing: border-box;
+      border-bottom: 1px solid;
+      font-size: 15px;
+      
+
+  }
+  input[type="submit"]{
+      margin-top: 20px;
+      margin-left: 40px;
+      font-weight: bold;
+      padding: 5px;
+      height: 50px;
+      width: 100;
+      border-radius: 50%;
+
+      background-color: darkcyan;
+      color: white;
+      box-shadow: grey 5px 5px 2px;
+      border: none;
+    
+  }
+  input[type="submit"]:hover{
+    box-shadow: grey 10px 10px 10px;
+    transform: translate(-10px,-10px);
+
+  }
+  input[type="submit"]:active{
+    box-shadow: grey 4px 4px 1px;
+    transform: translate(5px,5px);
+   border: none;
+
+  }
+
+  
+
+  .or {
+    position: relative;
+    top: 200px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  
+  .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEF8HiZjE9XT9BzHxu5Zxu4uO5SDYdgvZoqw&usqp=CAU') ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+  }
+  
+  .loginwith{
+    color: white;
+    font-size: 30px;
+    
+  }
+  .social-signin{
+    color: beige;
+    margin: 20px;
+    align-content: center;
+    width: 220px;
+    height: 36px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    
+  }
+  button.social-signin.facebook {
+    background: #32508E;
+  }
+  
+  button.social-signin.twitter {
+    background: #55ACEE;
+  }
+  
+  button.social-signin.google {
+    background: #DD4B39;
+  }
+

@@ -1,0 +1,42 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    margin: 200px;
+}
+.item{
+    background-color: darkred;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    display: inline-block;
+    border:red 10px;
+    animation: bounce 2s;
+    animation-iteration-count:infinite ;
+
+
+}
+.one{
+    animation-timing-function: ease-in;/* slower at begning fast at last*/
+}
+.two{
+    animation-timing-function: ease-out;/*fast at begning at slow at end*/
+}
+.three{
+    animation-timing-function: linear;/* move with constant speed*/
+}
+/* fourth will by default do "ease in out"*/
+@keyframes bounce {  /* bounce is the name of animation given by user*/
+    0% {
+    transform:scale(2)
+
+    }
+    50% {
+        transform: translateY(300px);/* after 50%animation box will go 300px down*/
+        background-color: lawngreen;
+    }
+    100% {
+
+
+    }
+}

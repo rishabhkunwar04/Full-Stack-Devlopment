@@ -1,0 +1,22 @@
+div.btn{
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+    width: 200px;
+
+    border-radius: 20px;
+    box-shadow:black 10px 10px 20px;
+    transition: 0.5s;  /* all css changes will reflect in  given time*/
+      
+}
+div.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow:gray 20px 20px 20px;
+
+}
+div.btn:active{
+    transform: translate(5px,5px);
+    box-shadow:gray 5px 5px 3px;
+
+}

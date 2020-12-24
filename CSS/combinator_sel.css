@@ -1,0 +1,28 @@
+li{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/*li>ul{
+    background-color: rgb(12, 109, 12);
+}
+ul li{
+    color: red;
+}
+ul>li{
+    color: yellow;
+}
+ul+ol{
+    color: blue;
+}
+*/
+
+/*
+1.A B:-The   (space) combinator selects nodes that are descendants of the first element.
+2.A+B:-The + combinator selects adjacent siblings. This means that the second element directly follows the first, 
+            and both share the same parent.
+3.A>B:-The > combinator selects nodes that are direct children of the first element.
+4.A~B:-The ~ combinator selects siblings. This means that the second element follows the first (though not necessarily immediately),
+     and both share the same parent.
+*/

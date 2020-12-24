@@ -1,0 +1,17 @@
+#id1{
+   /* font-size: 30px;
+    font-weight: bold;*/
+   /* font-size: 10vh; 1vh=1/100 of window size*/
+   font-size: 1em;/*em=14pt  ,em is the largest unit of width in web*/
+}
+#id2{
+    font-family: Arial, Helvetica, sans-serif;/*sans means without*/
+}
+#id3{
+    font-style: oblique;
+    font-weight: bold;
+}
+#id4{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
